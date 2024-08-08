@@ -1,0 +1,146 @@
+
+
+.header{
+    height: 894px;
+    padding: 0%;
+    max-width: 1512px!important;
+    position: relative;
+    /* padding: 0 2em!important; */
+    background-image: url('../../assets/Header/Header.svg');
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    height: 894px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90.26deg, rgba(2, 48, 36, 0.8) 0.22%, rgba(7, 69, 122, 0.66) 99.78%);
+    opacity: 0.8;
+    z-index: 1;
+  }
+
+  .header > * {
+    position: relative;
+    z-index: 2;
+  }
+
+  .text-container{
+    width: fit-content!important;
+    position: absolute;
+    max-width: 90%;
+   height: auto;
+top: 16em;
+left: 8em;
+border-radius: 10px;
+padding: 0;
+  }
+
+  .header-head{
+    font-family: 'Nunito Sans';
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 1.5em;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  .header-text-p{
+  text-align: left;
+color: #FFFFFF;
+text-wrap: wrap;
+max-width: 70%;
+  }
+
+ @media (max-width:1024px){
+ 
+
+  .header{
+    height: 600px!important;
+}
+
+.header::before {
+ 
+    height: 600px!important;}
+
+    .text-container{
+      top:12em;
+  left: 6em;
+
+    }
+
+    .header-head{
+   
+      font-size: 3em!important;
+      
+    }
+
+    #btn-getStarted-header{
+      margin-top: 12px!important;
+    }
+}
+
+
+@media (max-width:900px){
+ 
+
+  .header{
+    height: 600px!important;
+}
+
+.header::before {
+ 
+    height: 600px!important;}
+
+    .text-container{
+      top:12em;
+  left: 4em;
+
+    }
+
+    .header-head{
+   
+      font-size: 2em!important;
+      
+    }
+}
+
+@media (max-width:600px){
+ 
+
+  .header{
+    height: 450px!important;
+}
+
+.header::before {
+ 
+    height: 450px!important;}
+
+    .text-container{
+      top:9em;
+  left: 1.5em;
+
+    }
+
+    .header-head{
+   
+      font-size: 1.8em!important;
+      
+    }
+
+    .header-text-p{
+     font-size: small;
+      }
+
+      .header-text-p{
+        
+      max-width: 90%;
+        }
+
+        #btn-getStarted-header{
+          margin-top: 12px!important;
+        }
+}

@@ -1,0 +1,79 @@
+.navbar{
+    max-width: inherit!important;
+    font-family: 'Nunito sans';
+    margin: 0!important;
+    padding-top:1.5em!important;
+    position:relative;
+    z-index: 3;
+   }
+
+   .Navlinks-box{
+   padding:69px;
+   }
+
+   .Nav-body{
+    max-width: 100%!important;
+      margin: 0%!important;
+     
+   }
+
+   .brand, .list-item{
+    color: #fff;
+    font-family: 'Nunito Sans';
+font-size: 12px;
+font-weight: 700;
+line-height: 16.37px;
+
+
+  }
+
+  .getStarted-btn{
+    background-color: #19D02B!important;
+    color: #fff!important;
+    font-family: 'Nunito Sans'!important;
+font-size: 12px!important;
+font-weight: 700!important;
+line-height: 16.37px!important;
+width: 130px;
+height: 48px;
+gap: 10px;
+border-radius: 10px;
+
+
+
+  }
+
+  .login-btn{
+    color: #fff!important;
+    font-family: 'Nunito Sans';
+    font-size: 12px!important;
+    font-weight: 700!important;
+    line-height: 16.37px!important;
+
+  }
+
+  @media (max-width: 991.98px) {
+    .custom-navbar-collapse {
+      background: linear-gradient(90.26deg, rgba(2, 48, 36, 0.8) 0.22%, rgba(7, 69, 122, 0.66) 99.78%);
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      padding: 1rem;
+    }
+  
+    .custom-navbar-collapse .Navlinks-box,
+    .custom-navbar-collapse .login-btn,
+    .custom-navbar-collapse .getStarted-btn {
+      color: #fff !important;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  
+    .custom-navbar-collapse .getStarted-btn {
+      background-color: #19D02B;
+      border: none;
+      margin-top: 1rem;
+      width: 100%;
+    }
+  }
