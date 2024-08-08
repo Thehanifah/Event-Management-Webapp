@@ -1,0 +1,149 @@
+.footer-container{
+    max-width: 1512px!important;
+    height: 568px;
+    background-image: url('../../assets/Footer/footerbg.jpg');
+    padding: 2em 4em;
+
+}
+
+.footer-header{
+    font-family: 'Nunito Sans';
+font-size: 40px;
+font-weight: 700;
+line-height: 54.56px;
+text-align: center;
+color: #fff;
+
+}
+
+
+.footer-text-p {
+ color: #fff;
+ text-wrap: nowrap;  
+ 
+}
+
+.getStarted-btn-footer{
+    border-color: #19D02B!important;
+    color: #FFF!important;
+    font-family: 'Nunito Sans'!important;
+font-size: 12px!important;
+font-weight: 700!important;
+line-height: 16.37px!important;
+width: 252px;
+height: 53px;
+gap: 10px;
+border-radius: 10px;
+margin-top: 3em;
+  }
+
+  .getStarted-btn-footer:hover{
+    background-color:#19D02B!important ;
+    
+  }
+
+  .footer-links-container{
+    width: 90%;
+   height: auto; 
+   margin: 5em auto;
+    display: flex;
+  }
+
+  .links-container{
+        width: 80%;
+  }
+
+
+  .logo-container-footer{
+    width: 120px;
+  }
+
+  .footer-cols{
+ padding: 1em 0;
+  }
+
+  .footer-cols a{
+    color:#fff;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    text-align: left;
+   
+}
+
+#footer-text{
+    color: #ccc;
+    font-size: 14px;
+}
+
+
+@media (max-width:600px){
+   
+      .footer-text-p{
+       font-size: 12px!important;
+       text-wrap: wrap;
+        }
+
+        .footer-header{
+            font-family: "Nunito Sans";
+            font-size: 20px;
+              line-height: 27.28px;
+
+        }
+       
+        .footer-cols a{
+       
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 16.37px;
+          
+            
+        }      
+        
+        /* .foot-logo-text{
+            width: 80px;
+            height: 33px;
+        }
+
+        .foot-logo{
+            width: 36px;
+            height: 33px;
+        } */
+
+        .logo-container-footer{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #footer-text{
+            font-size: 6px;
+        }
+
+        .getStarted-btn-footer{
+        margin-top: 2em;
+          }
+
+          .footer-links-container{
+            width: 90%;
+           height: auto; 
+           margin: 2em auto;
+            display: flex;
+          }
+          .footer-container{
+            background: linear-gradient(90deg, #023024 8.33%, #023024 8.98%, #023025 9.64%, #023026 10.29%, #023126 10.94%, #023127 11.59%, #023128 12.24%, #023128 12.89%, #023129 13.54%, #02312A 14.19%, #02322A 14.84%, #02322B 15.49%, #02322C 16.15%, #03322C 16.8%, #03322D 17.45%, #03322E 18.1%, #03332E 18.75%, #03332F 19.4%, #033330 20.05%, #033331 20.7%, #033331 21.35%, #033332 22.01%, #033333 22.66%, #033433 23.31%, #033434 23.96%, #033435 24.61%, #033435 25.26%, #033436 25.91%, #033437 26.56%, #033537 27.21%, #033538 27.86%, #033539 28.52%, #033539 29.17%, #03353A 29.82%, #03353B 30.47%, #03363B 31.12%, #03363C 31.77%, #03363D 32.42%, #03363D 33.07%, #03363E 33.72%, #04363F 34.38%, #04373F 35.03%, #043740 35.68%, #043741 36.33%, #043742 36.98%, #043742 37.63%, #043743 38.28%, #043844 38.93%, #043844 39.58%, #043845 40.23%, #043846 40.89%, #043846 41.54%, #043847 42.19%, #043948 42.84%, #043948 43.49%, #043949 44.14%, #04394A 44.79%, #04394A 45.44%, #04394B 46.09%, #043A4C 46.74%, #043A4C 47.4%, #043A4D 48.05%, #043A4E 48.7%, #043A4E 49.35%, #043A4F 50%, #043B50 50.65%, #053B50 51.3%, #053B51 51.95%, #053B52 52.6%, #053B52 53.26%, #053B53 53.91%, #053C54 54.56%, #053C55 55.21%, #053C55 55.86%, #053C56 56.51%, #053C57 57.16%, #053C57 57.81%, #053D58 58.46%, #053D59 59.11%, #053D59 59.77%, #053D5A 60.42%, #053D5B 61.07%, #053D5B 61.72%, #053E5C 62.37%, #053E5D 63.02%, #053E5D 63.67%, #053E5E 64.32%, #053E5F 64.97%, #053E5F 65.62%, #053F60 66.28%, #053F61 66.93%, #053F61 67.58%, #063F62 68.23%, #063F63 68.88%, #063F63 69.53%, #064064 70.18%, #064065 70.83%, #064066 71.48%, #064066 72.14%, #064067 72.79%, #064068 73.44%, #064168 74.09%, #064169 74.74%, #06416A 75.39%, #06416A 76.04%, #06416B 76.69%, #06416C 77.34%, #06426C 77.99%, #06426D 78.65%, #06426E 79.3%, #06426E 79.95%, #06426F 80.6%, #064270 81.25%, #064370 81.9%, #064371 82.55%, #064372 83.2%, #064372 83.85%, #064373 84.51%, #064374 85.16%, #074474 85.81%, #074475 86.46%, #074476 87.11%, #074476 87.76%, #074477 88.41%, #074478 89.06%, #074579 89.71%, #074579 90.36%, #07457A 91.02%, #07457B 91.67%);
+
+          
+        
+        }
+      
+  }
+
+
+  @media(max-width:1024px){
+    .footer-cols{
+        width:150px
+          }
+
+
+  }
