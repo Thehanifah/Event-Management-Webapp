@@ -4,10 +4,23 @@ import {Container, Nav, Navbar, NavLink} from 'react-bootstrap';
 import './Navbar.css';
 import logo from '../../assets/Navbar/logo.svg'
 import peak from '../../assets/Navbar/peak.svg'
+import { Link } from 'react-router-dom';
 
 
 
 function NavBar() {
+
+<>
+  <div>
+    <p>
+      <link to="/">
+        Home
+      </link>
+    </p>
+    <p>
+      <link to="../Onboardingone">Onboarding</link></p>
+  </div>
+</>;
 
   const menuData =[
     {
@@ -58,7 +71,7 @@ function NavBar() {
             }
             </Nav>
             <Nav className='ms-auto d-flex align-items-center justify-content-center '>
-               <Nav.Link className='login-btn mx-3' href="#login">LOGIN</Nav.Link>
+               <Nav.Link className='login-btn mx-3' href="../Onboardingone">LOGIN</Nav.Link>
               <button className="btn getStarted-btn">GET STARTED</button>
             </Nav>
         </Navbar.Collapse>
