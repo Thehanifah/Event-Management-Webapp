@@ -1,1 +1,58 @@
+.onboarding-background {
+  background-image: url(/src/assets/Onboardingone/background-image.png);
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* gap: 3rem; */
+}
 
+@media (max-width: 18.75em) {
+  .onboarding-background {
+    grid-template-columns: 1fr;
+  }
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.button button {
+  border: transparent;
+  outline: transparent;
+  background-color: #d9d9d9;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  display: block;
+  text-align: center;
+  text-wrap: nowrap;
+}
+.button a {
+  display: block;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  /* margin-top: 1rem; */
+  padding: 0.5rem;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.img-size {
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+.img-size-2 {
+  border-radius: 50%;
+  max-width: 100%;
+}
