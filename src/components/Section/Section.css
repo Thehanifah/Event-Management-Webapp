@@ -1,0 +1,46 @@
+.First-section-div{
+   display: flex;
+   
+}
+h2 {
+   margin-left:px;
+   margin-bottom: 0px;
+   position: relative;
+   top: 270px;
+   right: 18%;
+   font-weight: bold;
+ }
+ 
+ 
+ .section-container {
+   display: flex;
+   flex-direction: column; 
+ }
+ 
+  .row {
+   display: flex;
+   justify-content: space-between; 
+   margin-bottom: 20px; 
+   margin-top: 0;
+ }
+  .image-section{
+   position:relative ;
+    top: 0;
+    left: 80%;
+  }
+ 
+ .Section-container {
+   flex: 1; 
+   margin: 50px 70px; 
+   padding-left: 3px;
+   padding-right: 3px;
+   padding-bottom: 20px;
+   padding-top: 50px;
+   border: 1px solid black;
+   text-align: center;
+   
+ }
+ h5{
+   font-weight: 1000;
+   font-size: large;
+ }
